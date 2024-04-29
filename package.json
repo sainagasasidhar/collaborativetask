@@ -1,0 +1,27 @@
+{
+  "name": "taskmanagerapp",
+  "version": "1.0.0",
+  "description": "A Simple App to manage all Tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "tap test/*.js --disable-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddisainagasasidhar/taskmanager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddisainagasasidhar/taskmanager/issues"
+  },
+  "homepage": "https://github.com/maddisainagasasidhar/taskmanager#readme",
+  "devDependencies": {
+    "supertest": "^6.3.4",
+    "tap": "^18.7.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
